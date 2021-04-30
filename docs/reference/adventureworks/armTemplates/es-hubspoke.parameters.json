@@ -1,0 +1,191 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-08-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enterpriseScaleCompanyPrefix":{
+            "value": "nten04"
+        },
+		"enableUpdateMgmt": {
+            "value": "Yes"
+        },
+		"enableHub": {
+            "value": "Yes"
+        },
+        "managementSubscriptionId":{
+            "value": "77dd8ea6-a69d-4f16-98ae-43bda50aface"
+        },
+        "connectivitySubscriptionId":{
+            "value": "f7c05234-81a5-45e0-8422-933fd3ae2b2c"
+        },
+		"addressPrefix": {
+            "value": "10.1.0.0/16"
+        },
+		 "subnetMaskForAzFw": {
+            "value": "10.1.1.0/16"
+        },
+        "identitySubscriptionId":{
+            "value": "999c15da-0962-4324-bf2f-46379da8477b"
+        },
+		"onlineLzSubscriptionId":{
+             "value": ["58de512b-0415-416b-ba04-846a9c97c71a" ]
+        },
+		"corpLzSubscriptionId":{
+            "value":  [
+			{
+              "subs": "1ad721cc-870b-4349-b037-7ba554c83b78",
+               "addresses": "10.2.0.0/16"
+            }
+             ]
+        },
+		"corpConnectedLzSubscriptionId": {
+            "value": []
+        },
+        "denySubnetWithoutNsgForIdentity": {
+            "value": "Yes"
+        },
+        "denyRdpForIdentity": {
+            "value": "No"
+        },
+        "denyPipForIdentity": {
+            "value": "Yes"
+        },
+        "enableVmBackupForIdentity": {
+            "value": "No"
+        },
+		"enableLogAnalytics": {
+            "value": "Yes"
+        },
+        "retentionInDays": {
+            "value": "30"
+        },
+        "enableAsc": {
+            "value": "Yes"
+        },
+        "enableAksPolicy": {
+            "value": "Yes"
+        },
+		"denySubnetWithoutNsgForIdentity": {
+            "value": "Yes"
+        },
+        "emailContactAsc": {
+            "value": "vitali_zhurauliou@epam.com"
+        },
+        "enableAscForServers": {
+            "value": "Free"
+        },
+        "enableAscForAppServices": {
+            "value": "Standard"
+        },
+		"enableAscForStorage": {
+            "value": "Free"
+        },
+        "enableAscForSql": {
+            "value": "Free"
+        },
+        "enableAscForSqlOnVm": {
+            "value": "Free"
+        },
+        "enableAscForKeyVault": {
+            "value": "Standard"
+        },
+		"enableAscForArm": {
+            "value": "Free"
+        },
+        "enableAscForDns": {
+            "value": "Free"
+        },
+        "enableAscForKubernetes": {
+            "value": "Standard"
+        },
+        "enableAscForRegistries": {
+            "value": "Standard"
+        },
+		"denyAksPrivileged": {
+            "value": "Yes"
+        },
+        "denyAksPrivilegedEscalation": {
+            "value": "Yes"
+        },
+        "denyHttpIngressForAks": {
+            "value": "No"
+        },
+        "enableArcMonitoring": {
+            "value": "Yes"
+        },
+		"enableVmMonitoring": {
+            "value": "Yes"
+        },
+        "enableVmssMonitoring": {
+            "value": "Yes"
+        },
+        "enableSecuritySolution": {
+            "value": "Yes"
+        },
+        "enableEncryptionInTransit": {
+            "value": "No"
+        },
+		"enableAgentHealth": {
+            "value": "Yes"
+        },
+        "enableChangeTracking": {
+            "value": "Yes"
+        },
+        "enableActivityLog": {
+            "value": "Yes"
+        },
+		"denySubnetWithoutNsgForIdentity": {
+            "value": "Yes"
+        },
+        "enableVmInsights": {
+            "value": "No"
+        },
+        "enableServiceMap": {
+            "value": "No"
+        },
+        "enableSqlAssessment": {
+            "value": "Yes"
+        },
+		"enableSqlAudit": {
+            "value": "Yes"
+        },
+        "enableSqlEncryption": {
+            "value": "Yes"
+        },
+        "enableVmBackup": {
+            "value": "Yes"
+        },
+        "denyRdp": {
+            "value": "Yes"
+        },
+		"denyPublicEndpoints": {
+            "value": "Yes"
+        },
+		"enableStorageHttps": {
+            "value": "Yes"
+        },
+        "enableLzDdoS": {
+            "value": "No"
+        },
+        "denyIpForwarding": {
+            "value": "No"
+        },
+		"enableVpnGw": {
+            "value": "No"
+        },
+        "enableErGw": {
+            "value": "No"
+        },
+        "enableAzFw": {
+            "value": "Yes"
+        },
+		"enableAzFwDnsProxy": {
+            "value": "No"
+        },
+        "enableDdoS": {
+            "value": "No"
+        },
+        "subnetMaskForGw": {
+            "value": ""
+        }
+    }
+}
