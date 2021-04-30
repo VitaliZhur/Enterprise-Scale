@@ -31,10 +31,8 @@
         },
 		"corpLzSubscriptionId":{
             "value":  [
-			{
               "subs": "1ad721cc-870b-4349-b037-7ba554c83b78",
-               "addresses": "10.2.0.0/16"
-            }
+              "addresses": "10.2.0.0/16"
              ]
         },
 		"corpConnectedLzSubscriptionId": {
