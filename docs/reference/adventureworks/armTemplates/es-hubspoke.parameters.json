@@ -21,7 +21,7 @@
             "value": "10.1.0.0/16"
         },
 		 "subnetMaskForAzFw": {
-            "value": "10.1.1.0/16"
+            "value": "10.1.1.0/24"
         },
         "identitySubscriptionId":{
             "value": "999c15da-0962-4324-bf2f-46379da8477b"
