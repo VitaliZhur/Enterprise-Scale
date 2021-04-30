@@ -30,10 +30,10 @@
              "value": ["58de512b-0415-416b-ba04-846a9c97c71a" ]
         },
 		"corpLzSubscriptionId":{
-            "value":  [
+            "value":  "[
 	      {\"subs\": \"1ad721cc-870b-4349-b037-7ba554c83b78\",
               \"addresses\": \"10.2.0.0/16\"}
-             ]
+             ]"
         },
 		"corpConnectedLzSubscriptionId": {
             "value": []
