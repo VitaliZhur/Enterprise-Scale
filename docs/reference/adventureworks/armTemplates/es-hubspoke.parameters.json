@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "enterpriseScaleCompanyPrefix":{
-            "value": "nten04"
+            "value": "nten05"
         },
 	"enableUpdateMgmt": {
             "value": "Yes"
